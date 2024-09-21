@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#1e1e1e]">
+   
+   <main class="h-screen w-full">
+      <section class="pin-section h-screen w-full"></section>     
+      
+      <!-- Horizontal -->
+      <section class="horizontal-section relative h-screen w-full bg-white overflow-hidden" style="clip-path: circle(0% at 50% 50%);">
+         <div class="horizontal-heading h-full w-fit flex items-center will-change-transform">
+            <h1 class="uppercase text-[50vw] tracking-tighter whitespace-nowrap leading-none px-[10vw]">who we are</h1>
+         </div>
+
+         <div class="horizontal-elements absolute top-0 left-0 h-full w-fit flex justify-between gap-[40vw] p-[5vw] will-change-transform">
+            <div class="h-52 w-96">
+               <img class="size-full object-cover" src="assets/images/1.png" alt="">
+            </div>
+            <div class="h-52 w-96 self-end">
+               <img class="size-full object-cover" src="assets/images/2.png" alt="">
+            </div>
+            <div class="h-52 w-96">
+               <img class="size-full object-cover" src="assets/images/3.png" alt="">
+            </div>
+            <div class="h-52 w-96 self-end">
+               <img class="size-full object-cover" src="assets/images/4.png" alt="">
+            </div>
+            <div class="h-52 w-96">
+               <img class="size-full object-cover" src="assets/images/5.png" alt="">
+            </div>
+            <div class="h-52 w-96 self-end">
+               <img class="size-full object-cover" src="assets/images/6.png" alt="">
+            </div>
+            <div class="h-52 w-96">
+               <img class="size-full object-cover" src="assets/images/7.png" alt="">
+            </div>
+         </div>
+      </section>
+      
+      <section class="h-screen w-full bg-white"></section>
+   </main>
+   
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+   <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+   <script src="script.js"></script>
+</body>
+</html>

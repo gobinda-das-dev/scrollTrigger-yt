@@ -1,0 +1,30 @@
+* {
+   font-family: 'SohneBreit';
+}
+
+
+
+
+/* Load Sohne-Buch */
+@font-face {
+   font-family: 'SohneBuch';
+   src: url('assets/fonts/Sohne-Buch.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
+
+/* Load Sohne-Leicht */
+@font-face {
+   font-family: 'SohneLeicht';
+   src: url('assets/fonts/Sohne-Leicht.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
+
+/* Load Sohne-Breit */
+@font-face {
+   font-family: 'SohneBreit';
+   src: url('assets/fonts/SohneBreit.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
